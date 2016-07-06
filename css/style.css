@@ -1,0 +1,167 @@
+body{
+	background: url('../img/fon.png');
+  background-repeat: repeat-x;
+  margin-left: 10%;
+  margin-right: 10%; 
+ 	width: auto;
+ 	font-family: tahoma;
+}
+header{
+	background-color: white;
+	width: auto;
+	color: #41a1b9;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.43);
+	position: relative;
+	overflow: hidden;
+}
+.logo{
+	width: 300px;
+	margin-left: 30px;
+}
+.img{
+	width: 271px;
+  height: 157px;
+  margin: 15px 0px 0px 40px;
+}
+.tel{
+	float: right;
+	margin: 10px 40px 30px 0;
+	/*font-family: Arial, sans-serif;*/
+	font-size: 10pt;
+	}
+.bold{
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+.bold1{
+	margin: 0 0 6px 0;
+}
+.link{
+	float: right;
+	clear: both;
+	margin: -10px 40px 0 0;
+}
+
+.link1{
+	display: inline-block;
+	text-align: center;
+	font-size: 8pt;
+	width: 57px;
+	color: #41a1b9;
+}
+.link img{
+    width: auto;
+}
+.link2{
+		color: #41a1b9;
+}
+.foto{
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.43);
+	width: 100%;
+  height: auto;
+}
+.foto1{
+		padding: 1px 0 0 0;
+}
+ul{
+  display: block;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.43);
+	width: auto;
+	font-size: 9pt;
+}
+ul:after{
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+ul.menu > li{
+  float: left;
+  position: relative;
+  width: 14.28571428571429%;
+  text-align: center;
+}
+ul.menu > li > a{
+  display: block;
+  padding: 10px;
+  color: white;
+	background-image: -webkit-linear-gradient(top, #303030, #373737);
+	background-image: -o-linear-gradient(top, #303030, #373737);
+	background-image: linear-gradient(top, #303030, #373737);
+  text-decoration: none;
+  font-size: 14pt;
+}
+ul.menu > li > a:hover{
+  background-color: black;
+
+}
+ul.submenu1{
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 37px;
+  left: 0;
+  background-color: white;
+  border-top: 1px solid #373737;
+}
+ul.submenu1 > li{
+  display: block;
+}
+ul.submenu1 > li > a{
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: #303030;
+  text-decoration: none;
+  text-align: left;
+  font-size: 14pt;
+}
+ul.submenu1 > li > a:hover{
+  text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu1{
+  display: block;
+}
+
+.conteiner{
+	background: white;
+  float: left;
+  display: inline-flex;
+  width: 100%;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.43);
+}
+.inf{
+	float: left;
+	background: #edeef0;
+	width: 20%;
+  line-height: 2.5;
+  border: 1px solid #c7cacf;
+}
+.center{
+	  width: 60%;
+    float: left;
+}
+.h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.news{
+	float: right;
+	background: #edeef0;
+	width: 20%;
+  line-height: 2.5;
+  border: 1px solid #c7cacf;
+}
+.text{
+	padding: 0 10px 0 10px;
+	font-size: 16pt;
+}
+footer{
+text-align: center;
+font-size: 10pt;
+color: white;
+clear: both;
+padding: 12px 0 12px 0px;
+}
